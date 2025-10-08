@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Osaka Ceramics</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Playfair+Display:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="tea-mug.png" type="image/png" />
+  </head>
+  <body>
+    <!-- Welcome Modal -->
+    <div id="welcomeModal" class="modal">
+      <div class="modal-content luxurious">
+        <span class="close">&times;</span>
+        <h2 data-key="welcomeHeading">Welcome to Osaka Ceramics</h2>
+        <p data-key="welcomeText">
+          Discover timeless Japanese craftsmanship. Handmade ceramic cups and
+          pottery for your home.
+        </p>
+        <img
+          src="https://m.media-amazon.com/images/I/71quL8MBUCL._UF894,1000_QL80_.jpg"
+          alt="Welcome Image"
+          height="200px"
+        />
+        <br />
+        <button id="modalCloseBtn" class="btn" data-key="welcomeBtn">
+          Shop Now
+        </button>
+      </div>
+    </div>
+
+    <!-- HEADER -->
+    <header>
+      <nav class="navbar">
+        <div class="logo" data-key="logo">Osaka Ceramics</div>
+        <button class="hamburger" id="hamburger">&#9776;</button>
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#home" data-key="home">Home</a></li>
+          <li><a href="#products" data-key="services">Products</a></li>
+          <li><a href="#about" data-key="about">About</a></li>
+          <li><a href="#contact" data-key="contact">Contact</a></li>
+        </ul>
+        <button id="langBtn" class="btn">Japanese</button>
+      </nav>
+    </header>
+
+    <!-- HERO -->
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <div class="hero-text">
+          <h1 data-key="heroHeading">Timeless Japanese Ceramics</h1>
+          <p data-key="heroText">
+            Handcrafted cups, plates, and pottery from Osaka artisans.
+            Experience the elegance of tradition in every piece.
+          </p>
+          <a href="#products" class="btn" data-key="heroBtn"
+            >Explore Collection</a
+          >
+        </div>
+        <div class="hero-image">
+          <img
+            src="https://m.media-amazon.com/images/I/71Vx0jU0TmL._UF894,1000_QL80_.jpg"
+            alt="Ceramic Cups"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- PRODUCTS -->
+    <section class="services" id="products">
+      <h2 data-key="ourServices">Our Collection</h2>
+      <div class="service-cards">
+        <div class="card">
+          <img
+            src="https://nestasia.in/cdn/shop/files/Floralcupset_2.jpg?v=1699451570&width=600"
+            alt="Tea Cups"
+          />
+          <h3 data-key="service1Title">Ceramic Tea Cups</h3>
+          <p data-key="service1Text">
+            Authentic Japanese tea cups, perfect for daily use and gifting.
+          </p>
+        </div>
+        <div class="card">
+          <img
+            src="https://m.media-amazon.com/images/I/71quL8MBUCL._UF894,1000_QL80_.jpg"
+            alt="Serving Bowls"
+          />
+          <h3 data-key="service2Title">Serving Bowls</h3>
+          <p data-key="service2Text">
+            Beautiful hand-glazed bowls for soups, ramen, and salads.
+          </p>
+        </div>
+        <div class="card">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzH_7NQkS31JNUO4YdLPyUD9fLiDplV0S6rQ72oXmPZTVPKcU4pz_8SFMKbpQxHy8UQqk&usqp=CAU"
+            alt="Ceramic Plates"
+          />
+          <h3 data-key="service3Title">Plates</h3>
+          <p data-key="service3Text">
+            Elegant Japanese plates with artistic textures and finishes.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="about" id="about">
+      <div class="about-content">
+        <img
+          class="about-img"
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrdu3AVflY4BR8VLnxydalSPQWRPF0LD5GGg&s"
+          alt="About Osaka Ceramics"
+        />
+        <div class="about-text">
+          <h2 data-key="aboutHeading">About Us</h2>
+          <p data-key="aboutText">
+            At <strong>Osaka Ceramics</strong>, we bring the heart of Japanese
+            tradition into your home. Every piece is handmade by skilled
+            artisans, using time-honored methods that have been passed down for
+            generations. From elegant tea cups to statement serving bowls, our
+            ceramics reflect both functionality and artistry. Our mission is to
+            share the beauty of Japanese craftsmanship with the world.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- GALLERY -->
+    <section class="gallery" id="gallery">
+      <h2 data-key="galleryHeading">Our Gallery</h2>
+      <p data-key="galleryText">Explore the artistry of Osaka ceramics.</p>
+      <div class="gallery-grid">
+        <div class="gallery-item">
+          <img
+            src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/fb/f5/65/caption.jpg?w=1200&h=1200&s=1"
+            alt="Ceramic Gallery 1"
+          />
+        </div>
+        <div class="gallery-item">
+          <img
+            src="https://res.klook.com/images/fl_lossy.progressive,q_65/c_fill,w_1200,h_630/w_80,x_15,y_15,g_south_west,l_Klook_water_br_trans_yhcmh3/activities/yfk9as8ayeftoa35gv3u/Kamishinjo%20Chichinpui%20Ceramic%20Class%20in%20Osaka%20DIY%20Workshop%20with%20Cat%20Face%20Plate.jpg"
+            alt="Ceramic Gallery 2"
+          />
+        </div>
+        <div class="gallery-item">
+          <img
+            src="https://i.pinimg.com/736x/10/11/9b/10119b64b7f18210533c7aac0d9791af.jpg"
+            alt="Ceramic Gallery 3"
+          />
+        </div>
+        <div class="gallery-item">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRf3gK3bbMK8l7li5RxKIQ16O8GIy7LvN-WGQ&s"
+            alt="Ceramic Gallery 4"
+          />
+        </div>
+        <div class="gallery-item">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFQz14_h24j7jKkPZ39lVyHQJwLfXiA9Rxpw&s"
+          />
+        </div>
+        <div class="gallery-item">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWlvZp5I2dpfu0qGbNyis7fk1wdRIwd2UmD4nQMV-FPrjgiHg5hSx9tGVcae4Do4WARcA&usqp=CAU"
+            alt="Ceramic Gallery 4"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- OFFERS -->
+    <section class="offers" id="offers">
+      <h2 data-key="offers">Special Offers</h2>
+      <div class="offer-cards">
+        <div class="offer">
+          <h3 data-key="offer1Title">Tea Cup Set</h3>
+          <p data-key="offer1Text">4 handmade cups</p>
+          <span class="price">₹1999</span>
+        </div>
+        <div class="offer">
+          <h3 data-key="offer2Title">Family Dinner Set</h3>
+          <p data-key="offer2Text">Plates + Bowls + Cups</p>
+          <span class="price">₹4999</span>
+        </div>
+        <div class="offer">
+          <h3 data-key="offer3Title">Couple’s Tea Time</h3>
+          <p data-key="offer3Text">2 cups + 1 pot</p>
+          <span class="price">₹2999</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- WHY US -->
+    <section class="why-us" id="why-us">
+      <h2 data-key="whyUs">Why Choose Osaka Ceramics</h2>
+      <div class="why-cards">
+        <div class="why-card"><h3 data-key="why1">Handmade Artistry</h3></div>
+        <div class="why-card">
+          <h3 data-key="why2">Traditional Japanese Craft</h3>
+        </div>
+        <div class="why-card">
+          <h3 data-key="why3">Durable & Functional</h3>
+        </div>
+        <div class="why-card">
+          <h3 data-key="why4">Eco-friendly Materials</h3>
+        </div>
+      </div>
+    </section>
+
+    <!-- MEMBERSHIP -->
+    <section class="membership" id="membership">
+      <h2 data-key="membership">Membership Plans</h2>
+      <div class="membership-cards">
+        <div class="plan">
+          <h3 data-key="plan1">Basic</h3>
+          <p data-key="plan1Text">5% off all products</p>
+          <span>₹499/year</span>
+        </div>
+        <div class="plan">
+          <h3 data-key="plan2">Premium</h3>
+          <p data-key="plan2Text">10% off + free delivery</p>
+          <span>₹1499/year</span>
+        </div>
+        <div class="plan">
+          <h3 data-key="plan3">Collector</h3>
+          <p data-key="plan3Text">20% off + limited editions</p>
+          <span>₹3999/year</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- BOOKING -->
+    <section class="booking" id="booking">
+      <div class="booking-content">
+        <h2 data-key="bookingTitle">Order Your Ceramics</h2>
+        <p data-key="bookingText">
+          Bring Japanese craftsmanship into your home today.
+        </p>
+        <a href="#contact" class="btn" data-key="bookingBtn">Shop Now</a>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="faq" id="faq">
+      <h2 data-key="faq">Frequently Asked Questions</h2>
+      <div class="faq-items">
+        <div class="faq-item">
+          <h3 data-key="faq1Q">Are your ceramics dishwasher safe?</h3>
+          <p data-key="faq1A">Yes, most items are dishwasher safe.</p>
+        </div>
+        <div class="faq-item">
+          <h3 data-key="faq2Q">Do you ship internationally?</h3>
+          <p data-key="faq2A">Yes, we ship worldwide.</p>
+        </div>
+        <div class="faq-item">
+          <h3 data-key="faq3Q">Are the products handmade?</h3>
+          <p data-key="faq3A">Yes, all pieces are handmade by artisans.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- REASONS -->
+    <section class="reasons" id="reasons">
+      <h2 data-key="reasonsHeading">Top Reasons to Buy From Us</h2>
+      <div class="reasons-grid">
+        <div class="reason-card">
+          <h3 data-key="reason1Title">Authentic Japanese Design</h3>
+          <p data-key="reason1Text">
+            Every piece reflects Osaka’s cultural heritage.
+          </p>
+        </div>
+        <div class="reason-card">
+          <h3 data-key="reason2Title">High Quality</h3>
+          <p data-key="reason2Text">
+            Durable, safe, and long-lasting ceramics.
+          </p>
+        </div>
+        <div class="reason-card">
+          <h3 data-key="reason3Title">Unique Art</h3>
+          <p data-key="reason3Text">
+            Each product has its own story and craftsmanship.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="newsletter" id="contact">
+      <h2 data-key="contact">Contact Us</h2>
+      <p data-key="newsletterText">
+        Get updates on exclusive collections or send us your queries.
+      </p>
+      <form class="newsletter-form">
+        <input type="email" placeholder="Enter your email" required />
+        <button type="submit" class="btn" data-key="newsletterBtn">Send</button>
+      </form>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+      <div class="footer-container">
+        <div class="footer-col">
+          <h3 data-key="logo">Osaka Ceramics</h3>
+          <p data-key="footerAbout">
+            Handcrafted ceramics from Osaka. Tradition meets elegance.
+          </p>
+        </div>
+        <div class="footer-col">
+          <h4 data-key="quickLinks">Quick Links</h4>
+          <ul>
+            <li><a href="#home" data-key="home">Home</a></li>
+            <li><a href="#products" data-key="services">Products</a></li>
+            <li><a href="#about" data-key="about">About</a></li>
+            <li><a href="#contact" data-key="contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4 data-key="businessDetails">Business Details</h4>
+          <p><strong>Business Name:</strong> Osaka Ceramics Ltd.</p>
+          <p><strong>Founder:</strong> Hiroshi Tanaka</p>
+          <p><strong>Address:</strong> Osaka, Japan</p>
+        </div>
+        <div class="footer-col">
+          <h4 data-key="followUs">Follow Us</h4>
+          <div class="social-links">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2025 Osaka Ceramics. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <!-- JS -->
+    <script src="lang.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
